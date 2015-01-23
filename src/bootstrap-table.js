@@ -1465,6 +1465,7 @@
         for (i = row; i < row + rowspan; i++) {
             for (j = col; j < col + colspan; j++) {
                 $tr.eq(i).find('td').eq(j).hide();
+                break;
             }
         }
 
